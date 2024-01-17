@@ -1,0 +1,10 @@
+<!-- menu-bar.component.html -->
+<div class="menu-bar">
+    <button (click)="toggleMenu()">Toggle Menu</button>
+    <ul *ngIf="isMenuVisible">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+  
